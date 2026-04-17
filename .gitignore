@@ -1,0 +1,86 @@
+# 依赖目录
+node_modules/
+
+# 编译输出
+dist/
+build/
+out/
+lib/
+*.tsbuildinfo
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 运行时数据
+*.pid
+*.seed
+*.pid.lock
+
+# 测试覆盖率
+coverage/
+.nyc_output/
+
+# IDE 配置（Claude Code 常用）
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# OS 生成文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# 临时文件
+*.tmp
+*.temp
+*.cache
+*.bak
+*.log
+*.tmp
+
+# 打包文件
+*.tgz
+*.tar.gz
+*.zip
+
+# TypeScript 特定
+*.js.map
+*.d.ts.map
+
+# 配置文件备份
+config.local.*
+*.config.local.*
+
+
+# Next.js 构建输出
+.next/
+out/
+
+
+# 项目特定（根据你的实际目录调整）
+# 如果使用 Claude Code 生成的临时文件或输出
+.claude/
+.claude_output/
+
+
+# Claude Code 对话记录（过程文件）
+conversation-*.txt
+.claude/
