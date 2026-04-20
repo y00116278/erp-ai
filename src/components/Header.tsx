@@ -15,6 +15,7 @@ export default function Header() {
     '/orders': 'orders',
     '/customers': 'customers',
     '/inventory': 'inventory',
+    '/ai-models': 'aiModels',
   };
 
   const pageLabel = pathKeys[pathname] ? t(pathKeys[pathname]) : 'Page';

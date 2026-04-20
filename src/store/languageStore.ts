@@ -155,6 +155,17 @@ export const translations = {
     english: 'English',
     simplifiedChinese: '简体中文',
     traditionalChinese: '繁體中文',
+
+    // AI Models
+    aiModels: 'AI Models',
+    chatModel: 'Chat Model',
+    voiceModel: 'Voice/STT Model',
+    apiKey: 'API Key',
+    baseURL: 'Base URL',
+    modelName: 'Model Name',
+    testConnection: 'Test Connection',
+    connectionSuccess: 'Connection successful!',
+    connectionFailed: 'Connection failed',
   },
 
   'zh-CN': {
@@ -291,6 +302,17 @@ export const translations = {
     english: 'English',
     simplifiedChinese: '简体中文',
     traditionalChinese: '繁體中文',
+
+    // AI Models
+    aiModels: 'AI 模型',
+    chatModel: '聊天模型',
+    voiceModel: '语音识别模型',
+    apiKey: 'API 密钥',
+    baseURL: 'Base URL',
+    modelName: '模型名称',
+    testConnection: '测试连接',
+    connectionSuccess: '连接成功！',
+    connectionFailed: '连接失败',
   },
 
   'zh-TW': {
@@ -427,6 +449,17 @@ export const translations = {
     english: 'English',
     simplifiedChinese: '简体中文',
     traditionalChinese: '繁體中文',
+
+    // AI Models
+    aiModels: 'AI 模型',
+    chatModel: '聊天模型',
+    voiceModel: '語音識別模型',
+    apiKey: 'API 密鑰',
+    baseURL: 'Base URL',
+    modelName: '模型名稱',
+    testConnection: '測試連接',
+    connectionSuccess: '連接成功！',
+    connectionFailed: '連接失敗',
   },
 } as const;
 

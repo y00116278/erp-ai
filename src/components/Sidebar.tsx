@@ -9,6 +9,7 @@ import {
   ChevronLeft,
   ChevronRight,
   Box,
+  Bot,
 } from 'lucide-react';
 import { useUIStore } from '@/store/uiStore';
 
@@ -18,6 +19,7 @@ const navItems = [
   { href: '/orders', label: 'Orders', icon: ShoppingCart },
   { href: '/customers', label: 'Customers', icon: Users },
   { href: '/inventory', label: 'Inventory', icon: Warehouse },
+  { href: '/ai-models', label: 'AI Models', icon: Bot },
 ];
 
 export default function Sidebar() {

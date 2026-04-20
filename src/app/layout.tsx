@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
-import AppLayout from '@/components/AppLayout';
+import LayoutWrapper from '@/components/LayoutWrapper';
 
 export const metadata: Metadata = {
   title: 'ERP System',
@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <AppLayout>{children}</AppLayout>
+        <LayoutWrapper>{children}</LayoutWrapper>
       </body>
     </html>
   );
